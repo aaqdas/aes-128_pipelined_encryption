@@ -1,0 +1,10 @@
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/rtl/AddRoundKey.v
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/rtl/KeyExpantion.v
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/rtl/MixColumns.v
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/rtl/RoundKeyGen.v
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/rtl/ShiftRows.v
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/rtl/SubBytes.v
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/rtl/SBox.v
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/rtl/Round.v
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/rtl/Top_PipelinedCipher.v 
+/home/min/a/gfrancoc/Documents/pipelined_aes/aes-128_pipelined_encryption/sim/Top_PipelinedCipher_tb.v 

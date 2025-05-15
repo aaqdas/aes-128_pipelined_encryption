@@ -1,0 +1,11 @@
+*.db
+*.cmd*
+*.log*
+fv/
+.simvision/
+xcelium.d/
+*.history
+*.key
+.st_launch*
+.rs_*
+cadence/synthesis/.rs_aaqdas.tstamp
