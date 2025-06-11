@@ -36,6 +36,7 @@ read_libs $LIB_LIST
 
 read_hdl ${DESIGN}.v
 set_db lp_insert_clock_gating true
+set_db lp_enable_jls_sdb_flow true
 
 elaborate ${TOP_LEVEL}
 
@@ -43,9 +44,12 @@ write_db -all -to_file ${DESIGN}.joules.flow.elab.db
 
 read_sdc $CONSTRAINTS_DIR/${DESIGN}.sdc
 
+
 syn_power -effort high 
-read_stimulus -file $VCD_PATH -format shm
+read_stimulus -file $VCD_PATH -format shm -frame_count 100
 compute_power -mode time_based
 report_power -by_hierarchy > $RPT_DIR/${DESIGN}_power_hierarchy.joules.rpt
+
+plot_power_profile
 
 write_db -all -to_file ${DESIGN}.joules.flow.proto.db
