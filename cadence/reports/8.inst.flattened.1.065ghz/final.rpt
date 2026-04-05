@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/min/a/aaqdas/Documents/aes_build/aes-128_pipelined_encryption/cadence/synthesis
+QoS Summary for Top_PipelinedMultiCipher
+================================================================================
+Metric                          generic         map             final          
+================================================================================
+Slack (ps):                       590             132             261
+  R2R (ps):                       590             132             261
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                  no_value        no_value        no_value
+  CG  (ps):                  no_value        no_value        no_value
+TNS (ps):                           0               0               0
+  R2R (ps):                         0               0               0
+  I2R (ps):                  no_value        no_value        no_value
+  R2O (ps):                  no_value        no_value        no_value
+  I2O (ps):                  no_value        no_value        no_value
+  CG  (ps):                  no_value        no_value        no_value
+Failing Paths:                      0               0               0
+Cell Area:                     77,934          68,099          67,139
+Total Cell Area:               77,934          68,099          67,139
+Leaf Instances:               573,448         672,868         646,826
+Total Instances:              573,448         672,868         646,826
+Utilization (%):                 0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value
+================================================================================
+CPU  Runtime (h:m:s):        03:00:07        01:39:00        00:15:08
+Real Runtime (h:m:s):        01:41:59        00:19:11        00:07:32
+CPU  Elapsed (h:m:s):        03:00:40        04:39:47        04:54:47
+Real Elapsed (h:m:s):        01:42:17        02:01:35        02:09:01
+Memory (MB):                  7906.08         7910.99         7896.73
+================================================================================
+================================================================================
+Flow Settings:
+================================================================================
+Total Runtime (h:m:s): 02:10:33
+Total Memory (MB):     7904.73
+Executable Version:    21.17-s066_1
+================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+
